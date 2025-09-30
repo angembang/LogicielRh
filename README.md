@@ -99,7 +99,7 @@ ng serve -o
 <img width="1575" height="725" alt="image" src="https://github.com/user-attachments/assets/1e48e6b7-2493-4f1a-93f5-846524fe451d" />
 
 
-<img width="1586" height="759" alt="image" src="https://github.com/user-attachments/assets/ae810312-315e-468c-8f1c-f20ef3fb064c" />
+<img width="1481" height="623" alt="image" src="https://github.com/user-attachments/assets/78a4a0b9-aee9-4744-971b-98e1e0b99742" />
 
 
 <img width="1314" height="394" alt="image" src="https://github.com/user-attachments/assets/6aeb2af6-be21-47c1-a358-e4d8311c1d12" />
