@@ -1,27 +1,99 @@
-# Pizzaria
+---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+👩‍💼 Employee Management
 
-## Development server
+An Angular application to manage a list of employees (active and archived).
+The app allows switching an employee’s status, adding new employees through a form, and displaying employee details in a SweetAlert2 modal.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🚀 Features
 
-## Build
+📋 Display a list of active and archived employees
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🔄 Toggle employee status (active ↔ archived)
 
-## Running unit tests
+➕ Add a new employee via a form
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+📢 Parent-child communication using @Input() and @Output()
 
-## Running end-to-end tests
+🎨 Responsive UI with Bootstrap
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+💡 Bonus: show employee details in a SweetAlert2 modal
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+---
+
+🛠️ Tech Stack
+
+Angular 17+
+
+TypeScript
+
+HTML / SCSS
+
+Bootstrap 5
+
+SweetAlert2
+
+
+
+---
+
+📂 Project Structure
+
+employee-app/
+├── src/
+│ ├── app/
+│ │ ├── models/ # Employee interface
+│ │ ├── main/ # Main component (global management)
+│ │ ├── employee/ # Component displaying a single employee
+│ │ ├── employee-form/ # Form to add a new employee
+│ │ └── main-card/ # Example cards with SweetAlert2
+│ ├── assets/ # Images, resources
+│ └── index.html # Entry point
+├── angular.json
+├── package.json
+└── README.md
+
+
+---
+
+▶️ Run the project
+
+1. Clone the repository:
+
+git clone 
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Run the app locally:
+
+ng serve -o
+
+
+
+
+---
+
+🖼️ Screenshots
+
+<img width="1575" height="725" alt="image" src="https://github.com/user-attachments/assets/1e48e6b7-2493-4f1a-93f5-846524fe451d" />
+
+
+<img width="1586" height="759" alt="image" src="https://github.com/user-attachments/assets/ae810312-315e-468c-8f1c-f20ef3fb064c" />
+
+
+<img width="1415" height="463" alt="image" src="https://github.com/user-attachments/assets/9533258c-e876-4187-a623-df25db719a4f" />
+
+
+
+
+
+---
