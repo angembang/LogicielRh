@@ -97,11 +97,13 @@ ng serve -o
 🖼️ Screenshots
 
 <img width="1575" height="725" alt="image" src="https://github.com/user-attachments/assets/1e48e6b7-2493-4f1a-93f5-846524fe451d" />
+---
 
 
 
 
 <img width="1481" height="623" alt="image" src="https://github.com/user-attachments/assets/78a4a0b9-aee9-4744-971b-98e1e0b99742" />
+---
 
 
 
