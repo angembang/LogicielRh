@@ -87,7 +87,7 @@ npm install
 
 3. Run the app locally:
 
-ng serve -o
+ng serve 
 
 
 
