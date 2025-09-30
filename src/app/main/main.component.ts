@@ -123,5 +123,4 @@ addEmployee(newEmployee: Employee) {
   this.employees.push({ ...newEmployee, id: newId });
 }
 
-
 }
