@@ -1,0 +1,30 @@
+.employee-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.employee-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
+  border: 1px solid grey;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+}
+
+.employee-form form div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.employee-form form div input,
+.employee-form form button {
+  padding: 0.5rem;
+}

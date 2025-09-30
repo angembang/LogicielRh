@@ -1,0 +1,12 @@
+<div class="card" [ngClass]="{ 'active': employee.actif, 'inactive': !employee.actif }">
+  <div class="card-body">
+    <h3>{{ employee.name }}</h3>
+    <p>{{ employee.post }}</p>
+
+    <!-- Button witch change according to the status -->
+    <button (click)="changeStatus()" class="btn"
+            [ngClass]="employee.actif ? 'btn-warning' : 'btn-success'">
+      {{ employee.actif ? 'Archiver' : 'Activer' }}
+    </button>
+  </div>
+</div>

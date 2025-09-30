@@ -1,0 +1,35 @@
+<div class="cards-container">
+  <app-main-card
+    *ngFor="let employee of employeeList"
+    [nom]="employee.nom"
+    [post]="employee.poste"
+    [department]="employee.departement">
+  </app-main-card>
+</div>
+
+<hr>
+
+<!-- Liste des employés -->
+<h2>Liste des employés</h2>
+<div class="cards-container">
+  <app-employee
+    *ngFor="let emp of employees"
+    [employee]="emp"
+    (toggle)="toggleStatus($event)"><!-- Listen the event from the child (employee component) -->
+  </app-employee>
+</div>
+
+<hr>
+
+<!-- form to add an employee -->
+<h2>Ajouter un employé</h2>
+<app-employee-form
+  (add) = "addEmployee($event)">
+
+</app-employee-form>
+
+
+
+<hr>
+
+
