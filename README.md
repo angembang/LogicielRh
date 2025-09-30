@@ -46,16 +46,27 @@ SweetAlert2
 
 employee-app/
 ├── src/
+
 │ ├── app/
+
 │ │ ├── models/ # Employee interface
+
 │ │ ├── main/ # Main component (global management)
+
 │ │ ├── employee/ # Component displaying a single employee
+
 │ │ ├── employee-form/ # Form to add a new employee
+
 │ │ └── main-card/ # Example cards with SweetAlert2
+
 │ ├── assets/ # Images, resources
+
 │ └── index.html # Entry point
+
 ├── angular.json
+
 ├── package.json
+
 └── README.md
 
 
@@ -65,7 +76,7 @@ employee-app/
 
 1. Clone the repository:
 
-git clone 
+git clone https://github.com/angembang/LogicielRh.git
 
 
 2. Install dependencies:
@@ -90,7 +101,8 @@ ng serve -o
 <img width="1586" height="759" alt="image" src="https://github.com/user-attachments/assets/ae810312-315e-468c-8f1c-f20ef3fb064c" />
 
 
-<img width="1415" height="463" alt="image" src="https://github.com/user-attachments/assets/9533258c-e876-4187-a623-df25db719a4f" />
+<img width="1314" height="394" alt="image" src="https://github.com/user-attachments/assets/6aeb2af6-be21-47c1-a358-e4d8311c1d12" />
+
 
 
 
